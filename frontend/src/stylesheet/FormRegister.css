@@ -1,0 +1,36 @@
+.contenedor-formularioregistroactividades {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.contenedor-formularioregistroactividades h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contenedor-formularioregistroactividades input[type="text"],
+.contenedor-formularioregistroactividades input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contenedor-formularioregistroactividades button[type="submit"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contenedor-formularioregistroactividades button[type="submit"]:hover {
+  background-color: #0056b3;
+}

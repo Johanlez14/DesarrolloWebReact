@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 18px;
+    background-color: #d7e0f8;
+}
+
+h1 {
+    max-width: 940px;
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 40px 0;
+}
+
+
+.contenedor-principal {
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,43 @@
+.contenedor-formulariologin {
+    width: 800px; 
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .contenedor-formulariologin h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contenedor-formulariologin form div {
+    margin-bottom: 10px;
+  }
+  
+  .contenedor-formulariologin form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contenedor-formulariologin form input[type="text"],
+  .contenedor-formulariologin form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .contenedor-formulariologin form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .contenedor-formulariologin form button:hover {
+    background-color: #0056b3;
+  }
