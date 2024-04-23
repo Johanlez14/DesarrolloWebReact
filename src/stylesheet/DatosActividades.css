@@ -1,0 +1,32 @@
+.contenedor-datosactividades {
+  margin: 20px;
+}
+
+.contenedor-datosactividades h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contenedor-datosactividades table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contenedor-datosactividades th,
+.contenedor-datosactividades td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.contenedor-datosactividades th {
+  background-color: #f2f2f2;
+}
+
+.contenedor-datosactividades tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.contenedor-datosactividades tr:hover {
+  background-color: #ddd;
+}
